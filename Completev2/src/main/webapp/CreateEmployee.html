@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <title>User management</title>
+</head>
+<body>
+
+   <!-- header part-->
+   <div class="dark container-fluid">
+    <h1 class="text-center " style="color:rgba(255, 0, 0, 0.753);  font-style: oblique;
+    font-family: serif;
+    font-weight: bold; text-shadow: 2px 2px 4px #000000;">USER Management System </h1>
+</div>
+<!-- header close -->
+<!-- navbar -->
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+              <a class=" nav-link  " href="http://localhost:8082/Completev2/Home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+             <a class=" nav-link  "  href="http://localhost:8082/Completev2/CreateEmployee.html">ADD USER</a>
+          </li>
+          <li  class="nav-item">
+              <a class=" nav-link  "  href="http://localhost:8082/Completev2/UpdateEmployee.html" >UPDATE SALARY</a>
+          </li>
+          <li class="nav-item">
+             <a class=" nav-link  "   href="http://localhost:8082/Completev2/Display.jsp"">DISPLAY USERS</a>
+          </li>
+                   
+      </ul>
+  </div>
+</nav>
+
+<!-- navbar end -->
+<body>
+
+		<div class="alert alert-secondary" role="alert">
+<h1>Add Employee</h1>
+		<form action="CreateEmployee.jsp">
+		<table border="5px" align="center" cellspacing="20px" cellpadding="10px">
+		
+			<tr><td>Id:  </td><td><input name="id" placeholder="ID" type="text"></td></tr>
+			<tr><td>First Name: </td><td><input name="firstname" placeholder="First Name" type="text"></td></tr>
+			<tr><td>Last Name: </td><td><input name="lastname" placeholder="Last Name" type="text"></td></tr>
+			<tr><td>Salary: </td><td><input name="sal" placeholder="Salary" type="text"></td></tr>
+			<tr><td colspan="2"><input type="submit" value="submit"></td></tr>
+		
+		</table>
+		</form>
+		
+		
+		<a href="http://localhost:8082/Completev2/Home.html">Back to Home</a></br>
+
+		</div>
+		
+</body>
+</html>
